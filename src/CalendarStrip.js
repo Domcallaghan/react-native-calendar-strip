@@ -100,7 +100,7 @@ class CalendarStrip extends Component {
 
   constructor(props) {
     super(props);
-    this.numDaysInWeek = 7;
+    this.numDaysInWeek = 5;
 
     if (props.locale) {
       if (props.locale.name && props.locale.config) {
